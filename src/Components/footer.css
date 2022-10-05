@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    display: flex;
+    height: 250px;
+    justify-content: space-around;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.info .logo-container{
+    background-color: aquamarine;
+    max-width: 200px;
+    max-height: 50px;
+}
+.socials img{
+    width: 20px;
+}
+.socials a{
+    padding: 5px;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.links a{
+    padding: 5px;
+}
+.links a:hover{
+    color: orange;
+}
